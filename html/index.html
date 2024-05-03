@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
 </head>
-<body class="flex-container">
+<body class="outerGrid">
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-    <script src="index.html"></script>
-    <div class="grid"></div>
+    <script src="../js/index.js"></script>
+    <button type="button" id="level1" onclick="cardMaker(8, '1')">8 Pairs</button>
+    <button type="button" id="level2" onclick="cardMaker(16, '2')">16 Pairs</button>
+    <button type="button" id="level3" onclick="cardMaker(32, '3')">32 Pairs</button>
 </body>
 </html>
